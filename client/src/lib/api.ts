@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5174/api";
+const API_BASE = "https://recipes-pwa-api.onrender.com/api";
 
 export async function searchMeals(query: string) {
   const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}`);
