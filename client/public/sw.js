@@ -1,11 +1,7 @@
 const CACHE_NAME = "recipes-pwa-v1";
 const OFFLINE_URL = "/offline.html";
 
-const STATIC_ASSETS = [
-  "/",
-  "/offline.html",
-  "/manifest.webmanifest",
-];
+const STATIC_ASSETS = ["/"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
